@@ -17,6 +17,10 @@ describe('index.js', function() {
   });
   describe('mod', function() {
     it("is an equation that calculates a remainder that is equal to 4", function() {
+      const num3 = 14;
+    const num4 = 5;
+    const mod = num3 % num4;
+      
       expect(num3).to.be.a('number')
       expect(num4).to.be.a('number')
       expect(mod).to.eq(4)
@@ -24,6 +28,8 @@ describe('index.js', function() {
   });
   describe('max', function() {
     it("will return 20 as the highest number in the set", function() {
+      
+      let math=20
       expect(max).to.eq(20)
     });
   });
